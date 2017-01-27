@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#CBE9FA;}
+	.st1{fill:#7A7E7F;}
+	.st2{fill:none;}
+	.st3{fill:#919090;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:60px;}
+</style>
+<g>
+	<path class="st0" d="M368.4,0.5H143.6c-38.1,0-74,14.9-101.1,42s-42,63-42,101.1v224.8c0,38.1,14.9,74,42,101.1s63,42,101.1,42
+		h224.8c38.1,0,74-14.9,101.1-42s42-63,42-101.1V143.6c0-38.1-14.9-74-42-101.1S406.5,0.5,368.4,0.5z"/>
+	<path class="st1" d="M470.2,41.8C442.9,14.5,406.7-0.5,368.4-0.5H143.6c-38.3,0-74.5,15-101.8,42.3S-0.5,105.3-0.5,143.6v224.8
+		c0,38.3,15,74.5,42.3,101.8s63.4,42.3,101.8,42.3h224.8c38.3,0,74.5-15,101.8-42.3s42.3-63.4,42.3-101.8V143.6
+		C512.5,105.3,497.5,69.1,470.2,41.8z M511.5,368.4c0,38.1-14.9,74-42,101.1s-63,42-101.1,42H143.6c-38.1,0-74-14.9-101.1-42
+		s-42-63-42-101.1V143.6c0-38.1,14.9-74,42-101.1s63-42,101.1-42h224.8c38.1,0,74,14.9,101.1,42s42,63,42,101.1V368.4z"/>
+</g>
+<rect x="44.7" y="185.7" class="st2" width="422.7" height="124.7"/>
+<text transform="matrix(1 0 0 1 44.9836 228.2661)"><tspan x="0" y="0" class="st3 st4 st5">Expanding Cards </tspan><tspan x="63.1" y="72" class="st3 st4 st5">Placeholder</tspan></text>
+</svg>
