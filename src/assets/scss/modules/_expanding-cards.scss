@@ -1,11 +1,14 @@
+$gray: #ddd;
+
 .expanding-cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
   width: 100%;
+  max-width: 1000px;
   padding: 20px 0 0;
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
   text-align: center;
   position: relative;
@@ -16,20 +19,20 @@
     vertical-align: top;
     padding: 20px 10px 0px;
     transition: 0.35s ease-in-out ;
-    @media (max-width: $screen-md){
+    @media (max-width: 992){ //md
      width: 25%;
     }
-    @media (max-width: $screen-sm){
+    @media (max-width: 768px){ //sm
       width: 33%;
     }
-    @media (max-width: $screen-xs){
+    @media (max-width: 480px){ //xs
       width: 50%;
       padding: 5px 5px;
     }
     span {
       font-size: 14px;
       min-height: 34px;
-      @media (max-width: $screen-xs){
+      @media (max-width: 480px){ //xs
         font-size: 12px;
         min-height: 30px;
       }
@@ -42,16 +45,16 @@
     display: block;
     &__card {
       width: 18%;
-      @media (max-width: $screen-lg){
+      @media (max-width: 1200px){ //lg
         width: 19%;
       }
-      @media (max-width: $screen-md){
+      @media (max-width: 992px){ //md
         width: 23%;
       }
-      @media (max-width: $screen-sm){
+      @media (max-width: 768px){ //sm
         width: 31%;
       }
-      @media (max-width: $screen-xs){
+      @media (max-width: 480px){ //xs
         width: 44%;
         padding: 5px 5px;
       }
@@ -97,9 +100,10 @@
 }
 
 .card-drawer {
+  border-radius: 20px;
+  background: rgba(0,0,0,0.05);
   height: 0;
   position: absolute;
-  background: transparent;
   left: 10px;
   right: 10px;
   height: 0;
@@ -110,7 +114,7 @@
   //text-align: left;
   &__content {
     padding: 40px;
-    @media (max-width: $screen-xs){
+    @media (max-width: 480px ){ //xs
       padding: 15px;
     }
     img {
@@ -119,7 +123,7 @@
     }
     p {
       margin-top: 10px;
-      @media (max-width: $screen-xs){
+      @media (max-width: 480px){ //xs
         font-size: 12px;
       }
     }
@@ -133,9 +137,8 @@
   .close-drawer {
     display: block;
     cursor: pointer;
-    @media (max-width: $screen-xs){
+    @media (max-width: 480px){ //xs
       font-size: 14px;
     }
   }
 }
-
